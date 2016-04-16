@@ -1,0 +1,15 @@
+[21-Dec-2015 19:58:08 Europe/London] PHP Fatal error:  Call to undefined function get_header() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/index.php on line 2
+[01-Mar-2016 06:52:24 Europe/London] PHP Fatal error:  Call to undefined function language_attributes() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/header.php on line 2
+[01-Mar-2016 06:52:25 Europe/London] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/functions.php on line 41
+[01-Mar-2016 06:52:25 Europe/London] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/footer.php on line 12
+[01-Mar-2016 06:52:27 Europe/London] PHP Fatal error:  Call to undefined function get_header() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/author.php on line 2
+[01-Mar-2016 06:52:27 Europe/London] PHP Fatal error:  Call to undefined function get_header() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/archive.php on line 1
+[01-Mar-2016 13:19:39 Europe/London] PHP Fatal error:  Call to undefined function language_attributes() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/header.php on line 2
+[01-Mar-2016 13:19:39 Europe/London] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/functions.php on line 41
+[01-Mar-2016 13:19:39 Europe/London] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/footer.php on line 12
+[01-Mar-2016 13:19:40 Europe/London] PHP Fatal error:  Call to undefined function get_header() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/author.php on line 2
+[01-Mar-2016 13:19:41 Europe/London] PHP Fatal error:  Call to undefined function get_header() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/archive.php on line 1
+[13-Mar-2016 18:22:18 Europe/London] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/functions.php on line 41
+[13-Mar-2016 18:22:19 Europe/London] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/footer.php on line 12
+[14-Mar-2016 00:06:38 Europe/London] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/functions.php on line 41
+[14-Mar-2016 00:06:39 Europe/London] PHP Fatal error:  Call to undefined function is_active_sidebar() in /home/ospaorg/public_html/o2skills.com/wp-content/themes/academica/footer.php on line 12

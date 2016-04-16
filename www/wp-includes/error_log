@@ -1,0 +1,5 @@
+[21-Dec-2015 19:57:24 Europe/London] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/ospaorg/public_html/o2skills.com/wp-includes/rss-functions.php on line 8
+[07-Apr-2016 08:38:01 Europe/London] PHP Notice:  Use of undefined constant qxmtjj1176 - assumed 'qxmtjj1176' in /home/ospaorg/public_html/o2skills.com/wp-includes/class-IXR.php on line 26
+[07-Apr-2016 08:38:01 Europe/London] PHP Notice:  Use of undefined constant qxmtjj1176 - assumed 'qxmtjj1176' in /home/ospaorg/public_html/o2skills.com/wp-includes/class-IXR.php on line 26
+[07-Apr-2016 09:30:23 Europe/London] PHP Notice:  Use of undefined constant lhowm5466 - assumed 'lhowm5466' in /home/ospaorg/public_html/o2skills.com/wp-includes/class-wp-walker.php on line 6
+[07-Apr-2016 09:30:23 Europe/London] PHP Notice:  Use of undefined constant lhowm5466 - assumed 'lhowm5466' in /home/ospaorg/public_html/o2skills.com/wp-includes/class-wp-walker.php on line 6

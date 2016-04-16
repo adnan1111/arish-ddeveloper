@@ -1,0 +1,491 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: makewp005\n"
+"POT-Creation-Date: 2013-11-23 20:13+0900\n"
+"PO-Revision-Date: 2013-11-23 20:15+0900\n"
+"Last-Translator: makeWP <post@makewp.ru>\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__;esc_attr_x\n"
+"X-Poedit-Basepath: C:\\WebServers\\home\\makewp.ru\\demo\\wp-content"
+"\\themes\n"
+"X-Poedit-SearchPath-0: makewp005\n"
+
+#: makewp005/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Страница не найдена."
+
+#: makewp005/404.php:16
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "Ничего нет по указанному адресу. Попробуйте поиск или ссылки ниже."
+
+#: makewp005/archive.php:31
+#, php-format
+msgid "Author: %s"
+msgstr "Автор %s"
+
+#: makewp005/archive.php:39
+#, php-format
+msgid "Day: %s"
+msgstr "День %s"
+
+#: makewp005/archive.php:42
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц %s"
+
+#: makewp005/archive.php:45
+#, php-format
+msgid "Year: %s"
+msgstr "Год %s"
+
+#: makewp005/archive.php:48
+msgid "Asides"
+msgstr ""
+
+#: makewp005/archive.php:51
+msgid "Images"
+msgstr ""
+
+#: makewp005/archive.php:54
+msgid "Videos"
+msgstr ""
+
+#: makewp005/archive.php:57
+msgid "Quotes"
+msgstr ""
+
+#: makewp005/archive.php:60
+msgid "Links"
+msgstr ""
+
+#: makewp005/archive.php:63 makewp005/sidebar.php:17
+msgid "Archives"
+msgstr "Архив"
+
+#: makewp005/comments.php:28
+msgid "Comments: "
+msgstr "Комментарии:"
+
+#: makewp005/comments.php:28
+msgid "0"
+msgstr ""
+
+#: makewp005/comments.php:28
+msgid "1"
+msgstr ""
+
+#: makewp005/comments.php:28
+msgid "%"
+msgstr ""
+
+#: makewp005/comments.php:33 makewp005/comments.php:53
+msgid "Comment navigation"
+msgstr ""
+
+#: makewp005/comments.php:34 makewp005/comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Комментарии ранее"
+
+#: makewp005/comments.php:35 makewp005/comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+#: makewp005/comments.php:65
+msgid "Comments are closed."
+msgstr "Комментирование закрыто."
+
+#: makewp005/content-home.php:81
+msgid "Recent Post"
+msgstr "Последние записи"
+
+#: makewp005/content-page.php:18 makewp005/content-single.php:20
+#: makewp005/content.php:60 makewp005/image.php:58
+msgid "Pages:"
+msgstr "Стр.:"
+
+#: makewp005/content-page.php:23 makewp005/content-single.php:60
+#: makewp005/content.php:71 makewp005/image.php:32 makewp005/image.php:64
+#: makewp005/inc/template-tags.php:71 makewp005/inc/template-tags.php:90
+msgid "Edit"
+msgstr "Редактировать"
+
+#: makewp005/content-single.php:29 makewp005/content-single.php:32
+#: makewp005/content.php:18 makewp005/content.php:28
+msgid ", "
+msgstr ""
+
+#: makewp005/content-single.php:37
+#, php-format
+msgid ""
+"Tag %2$s | Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Метки %2$s | Закладка на <a href=\"%3$s\" rel=\"bookmark\">ссылку</a>."
+
+#: makewp005/content-single.php:39
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Закладка на <a href=\"%3$s\" rel=\"bookmark\">ссылку</a>."
+
+#: makewp005/content-single.php:45
+#, php-format
+msgid ""
+"Category %1$s | Tag %2$s | Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+"Рубрика %1$s | Метки %2$s | Закладка на <a href=\"%3$s\" rel=\"bookmark"
+"\">ссылку</a>."
+
+#: makewp005/content-single.php:47
+#, php-format
+msgid ""
+"Category %1$s | Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Рубрика %1$s | Закладка на <a href=\"%3$s\" rel=\"bookmark\">ссылку</a>."
+
+#: makewp005/content.php:22 makewp005/content.php:32
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: makewp005/content.php:68
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+#: makewp005/content.php:68
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+#: makewp005/content.php:68
+msgid "Comments: %"
+msgstr "Комментариев: %"
+
+#: makewp005/footer.php:27
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Работает на %s"
+
+#: makewp005/footer.php:29
+#, php-format
+msgid "Theme by %2$s"
+msgstr "Тема от %2$s"
+
+#: makewp005/functions.php:66
+msgid "Primary Menu"
+msgstr ""
+
+#: makewp005/functions.php:67
+msgid "Sub Menu"
+msgstr ""
+
+#: makewp005/functions.php:68
+msgid "Footer Menu"
+msgstr ""
+
+#: makewp005/functions.php:92
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+#: makewp005/functions.php:101
+msgid "Bottom1 Home"
+msgstr "Внизу1 Главной"
+
+#: makewp005/functions.php:102
+msgid "Located at the bottom left of the home page"
+msgstr "В нижней левой части главной страницы"
+
+#: makewp005/functions.php:111
+msgid "Bottom2 Home"
+msgstr "Внизу2 Главной"
+
+#: makewp005/functions.php:112
+msgid "Located at the bottom right of the home page"
+msgstr "В нижней правой части главной страницы"
+
+#: makewp005/functions.php:121
+msgid "Footer1"
+msgstr "Подвал1"
+
+#: makewp005/functions.php:122
+msgid "Located in the footer left of the page. Best for footer menu."
+msgstr ""
+"Внизу слева подвала. Лучше всего для размещения произвольного меню в подвале."
+
+#: makewp005/functions.php:131
+msgid "Footer2"
+msgstr "Подвал2"
+
+#: makewp005/functions.php:132
+msgid ""
+"Located in the footer right of the page. Best for social widger or short "
+"text."
+msgstr "Внизу справа подвала. Лучше всего для виджета социальных кнопок."
+
+#: makewp005/functions.php:233
+msgid "mWP Emphasis"
+msgstr "Акценты"
+
+#: makewp005/functions.php:234
+msgid "Emphasis"
+msgstr "Акценты"
+
+#: makewp005/functions.php:235
+msgid "Add New"
+msgstr "Добавить"
+
+#: makewp005/functions.php:236
+msgid "Add New Emphasis"
+msgstr "Новый Акцент"
+
+#: makewp005/functions.php:237
+msgid "Edit Emphasis"
+msgstr "Редактировать акцент"
+
+#: makewp005/functions.php:238
+msgid "New Emphasis"
+msgstr "Новый Акцент"
+
+#: makewp005/functions.php:239
+msgid "View Emphasis"
+msgstr "Показать Акценты"
+
+#: makewp005/functions.php:240
+msgid "Search emphasis"
+msgstr "Поиск Акцентов"
+
+#: makewp005/functions.php:241
+msgid "No emphasis found"
+msgstr "Не найден Акцент"
+
+#: makewp005/functions.php:242
+msgid "No emphasis found in Trash"
+msgstr "Не найден Акцент"
+
+#: makewp005/header.php:71
+msgid "Menu"
+msgstr "Меню"
+
+#: makewp005/image.php:22
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Опубликовано <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> в <a href=\"%3$s\">%4$s &times; %5$s</a> в <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+
+#: makewp005/image.php:37
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ранее"
+
+#: makewp005/image.php:38
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: makewp005/no-results.php:14
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: makewp005/no-results.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Опубликовать первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+#: makewp005/no-results.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Извините, но ничего не найдено. Попробуйте другой поисковый запрос."
+
+#: makewp005/no-results.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Попробуйте поиск."
+
+#: makewp005/search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска %s"
+
+#: makewp005/searchform.php:11 makewp005/searchform.php:13
+msgid "Search"
+msgstr "Поиск"
+
+#: makewp005/sidebar.php:24
+msgid "Meta"
+msgstr ""
+
+#: makewp005/inc/extras.php:66
+#, php-format
+msgid "Page %s"
+msgstr "Стр. %s"
+
+#: makewp005/inc/template-tags.php:34
+msgid "Post navigation"
+msgstr ""
+
+#: makewp005/inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Ранее"
+
+#: makewp005/inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Далее <span class=\"meta-nav\">&rarr;</span>"
+
+#: makewp005/inc/template-tags.php:71
+msgid "Pingback:"
+msgstr ""
+
+#: makewp005/inc/template-tags.php:81
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">сказал:</span>"
+
+#: makewp005/inc/template-tags.php:94
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: makewp005/inc/template-tags.php:185
+#, php-format
+msgid ""
+"<span class=\"posted-on\">%1$s</span> <span class=\"byline\"> %2$s</span>"
+msgstr ""
+
+#: makewp005/inc/widget-contact.php:28
+msgid "A widget that displays contacts list. Best for sidebar."
+msgstr ""
+"Контактная информация. Лучше всего размещать в сайдбаре (боковая колонка)."
+
+#: makewp005/inc/widget-contact.php:39
+msgid "Contact Info"
+msgstr "Контактная информация"
+
+#: makewp005/inc/widget-contact.php:121 makewp005/inc/widget-social.php:122
+msgid "Title:"
+msgstr "Заголовок"
+
+#: makewp005/inc/widget-contact.php:128
+msgid "Tel:"
+msgstr "Телефон"
+
+#: makewp005/inc/widget-contact.php:135
+msgid "Address:"
+msgstr "Адрес"
+
+#: makewp005/inc/widget-contact.php:141
+msgid "Email:"
+msgstr "Эл. почта"
+
+#: makewp005/inc/widget-social.php:28
+msgid "A widget that displays socials list in the footer right."
+msgstr "Социальные кнопки в подвале справа."
+
+#: makewp005/inc/widget-social.php:39
+msgid "Socials List"
+msgstr "Кнопки соцсетей"
+
+#: makewp005/inc/widget-social.php:129
+msgid "Twitter:"
+msgstr ""
+
+#: makewp005/inc/widget-social.php:136
+msgid "Facebook:"
+msgstr ""
+
+#: makewp005/inc/widget-social.php:142
+msgid "Vkontakte:"
+msgstr "ВКонтакте"
+
+#: makewp005/theme-options/theme-admin.php:70
+msgid "Theme Settings"
+msgstr "Настройки Темы"
+
+#: makewp005/theme-options/theme-admin.php:82
+msgid "Options Saved"
+msgstr "Опции сохранены"
+
+#: makewp005/theme-options/theme-admin.php:86
+msgid " Typal theme Settings"
+msgstr "Опции Темы Typal"
+
+#: makewp005/theme-options/theme-admin.php:96
+msgid "Logo"
+msgstr "Логотип"
+
+#: makewp005/theme-options/theme-admin.php:101
+msgid ""
+"Upload or enter URL file the logo image. Recommended image size 150x60px"
+msgstr "Загрузите изображение или введите URL его файла. Размер 150х60pix"
+
+#: makewp005/theme-options/theme-admin.php:107
+msgid "Home Meta Title"
+msgstr "Title Главной"
+
+#: makewp005/theme-options/theme-admin.php:111
+msgid "Enter the text of the meta tag Title home page of the site."
+msgstr "Введите мета тег title для главной страницы."
+
+#: makewp005/theme-options/theme-admin.php:116
+msgid "Tel"
+msgstr "Телефон"
+
+#: makewp005/theme-options/theme-admin.php:120
+msgid "Enter the primary contact number or slogan of the header."
+msgstr "Основной контактный номер или слоган."
+
+#: makewp005/theme-options/theme-admin.php:125
+msgid "Heading Box"
+msgstr "Блок заголовка"
+
+#: makewp005/theme-options/theme-admin.php:130
+msgid ""
+"Enter text (can use html tags) for the home page in heading box-content."
+msgstr "Текст (можно html теги) для отражения в блоке заголовка."
+
+#: makewp005/theme-options/theme-admin.php:135
+msgid "Head Text"
+msgstr "Заглавный текст"
+
+#: makewp005/theme-options/theme-admin.php:140
+msgid "Enter a brief call to action for the visitors also pay attention."
+msgstr "Призыв к действию или слоган."
+
+#: makewp005/theme-options/theme-admin.php:145
+msgid "Copyright"
+msgstr "Копирайт"
+
+#: makewp005/theme-options/theme-admin.php:149
+msgid "Enter your copyright text for the footer this site info."
+msgstr "Ваше имя или название, как авторские права на содержание сайта."
+
+#: makewp005/theme-options/theme-admin.php:154
+msgid "Scripts header"
+msgstr "Скрипт в header"
+
+#: makewp005/theme-options/theme-admin.php:159
+msgid "Enter the code counter statistics or other script that will header."
+msgstr "Вставьте код скрипта, например - счетчика."
+
+#: makewp005/theme-options/theme-admin.php:164
+msgid "Scripts footer"
+msgstr "Скрипт в footer"
+
+#: makewp005/theme-options/theme-admin.php:169
+msgid "Enter the code counter statistics or other script that will footer."
+msgstr "Вставьте код скрипта, например - счетчика статистики."
+
+#: makewp005/theme-options/theme-admin.php:175
+msgid "Save Options"
+msgstr "Сохранить"
+
+#~ msgid "Search &hellip;"
+#~ msgstr "Поиск &hellip;"

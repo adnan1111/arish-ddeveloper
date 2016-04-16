@@ -1,0 +1,109 @@
+/* Slidorion Stylesheet */
+#vtslider {
+    background: none repeat scroll 0 0 #bbb;
+    position: relative;
+	font-family: arial;
+}
+#vtslider .slidorion_clear{
+	clear:both;
+}
+#vtslider .vts_slider {
+	position: relative;
+	float: left;
+	overflow: hidden;
+}
+#vtslider .vts_slider  .vts_slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#vtslider .vts_slider  .vts_slide img{
+	height:100%;
+	width:auto;
+	 max-width: inherit;
+}
+#vtslider .vts_slider  .vts_slide  .vts_img_desp{
+    background: url("../images/overlay_bg.png") repeat scroll 0 0 transparent;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 14px;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#vtslider .vts_slider  .vts_slide  .vts_img_desp a{
+	color:#fff;
+	text-decoration:none;
+	display: block;
+}
+#vtslider .vts_slider  .vts_slide  .vts_img_desp a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+#vtslider .vts_accordion {
+	background: #eee;
+	box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	position: relative;
+	z-index:999;
+	overflow: hidden;
+	float: left;
+}
+#vtslider .vts_accordion .vts_header {
+    background: none repeat scroll 0 0 #E6E6E6;
+    border-bottom: 1px solid #CCCCCC;
+    color: #333333;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 10px 15px;
+}
+#vtslider .vts_accordion .vts_header:first-child {
+	border-top: none;
+}
+#vtslider .vts_accordion .vts_header:hover {
+	background: #EDEDED;
+	cursor: pointer;
+}
+#vtslider .vts_accordion .vts_header.active {
+	border-bottom: none;
+	background: #676767 !important;
+	color: #FFF;
+}
+
+#vtslider .vts_accordion .vts_content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: medium none;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    overflow: auto;
+}
+#vtslider .vts_accordion .vts_content  .vts_cont-inner{
+	padding: 10px 15px;
+}
+#vtslider .slidorion-nav {
+    background: url("../images/arrows.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 27px;
+    margin-top: -14px;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+    z-index: 9999;
+}
+#vtslider .slidorion-nav-left {
+	left: 10px;
+}
+#vtslider .slidorion-nav-right {
+	right: 10px;
+	background-position: -16px 0;
+}

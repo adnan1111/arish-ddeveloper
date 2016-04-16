@@ -1,0 +1,9 @@
+[18-Sep-2015 08:39:10 Europe/London] PHP Fatal error:  Class 'controllerGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/controller.php on line 2
+[18-Sep-2015 15:22:03 Europe/London] PHP Fatal error:  Class 'moduleGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/mod.php on line 2
+[18-Sep-2015 23:10:34 Europe/London] PHP Fatal error:  Class 'controllerGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/controller.php on line 2
+[28-Sep-2015 05:35:22 Europe/London] PHP Fatal error:  Class 'controllerGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/controller.php on line 2
+[29-Sep-2015 05:55:01 Europe/London] PHP Fatal error:  Class 'moduleGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/mod.php on line 2
+[29-Nov-2015 18:41:24 Europe/London] PHP Fatal error:  Class 'moduleGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/mod.php on line 2
+[30-Nov-2015 22:28:38 Europe/London] PHP Fatal error:  Class 'moduleGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/mod.php on line 2
+[01-Dec-2015 08:01:30 Europe/London] PHP Fatal error:  Class 'controllerGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/controller.php on line 2
+[03-Dec-2015 22:55:24 Europe/London] PHP Fatal error:  Class 'controllerGmp' not found in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/marker/controller.php on line 2

@@ -1,0 +1,2 @@
+[11-Oct-2015 16:10:14 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/hello.php on line 64
+[24-Oct-2015 07:46:18 Europe/London] PHP Fatal error:  Call to undefined function add_action() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/hello.php on line 64

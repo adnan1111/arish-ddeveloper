@@ -1,0 +1,4 @@
+[07-Apr-2016 10:22:47 Europe/London] PHP Notice:  Use of undefined constant zkmtgz3305 - assumed 'zkmtgz3305' in /home/ospaorg/public_html/o2skills.com/wp-includes/theme-compat/comments.php on line 7
+[07-Apr-2016 10:22:47 Europe/London] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/ospaorg/public_html/o2skills.com/wp-includes/theme-compat/comments.php on line 10
+[07-Apr-2016 10:22:47 Europe/London] PHP Notice:  Use of undefined constant zkmtgz3305 - assumed 'zkmtgz3305' in /home/ospaorg/public_html/o2skills.com/wp-includes/theme-compat/comments.php on line 7
+[07-Apr-2016 10:22:47 Europe/London] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/ospaorg/public_html/o2skills.com/wp-includes/theme-compat/comments.php on line 10

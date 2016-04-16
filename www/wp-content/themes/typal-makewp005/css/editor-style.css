@@ -1,0 +1,19 @@
+/*
+Theme Name: makewp005
+Description: Used to style the TinyMCE editor.
+*/
+
+html {
+	font-size: 100%;
+}
+html .mceContentBody {
+	max-width: 625px;
+}
+body {
+	color: #444;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}

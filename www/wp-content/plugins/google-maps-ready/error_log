@@ -1,0 +1,30 @@
+[15-Sep-2015 23:39:50 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 3
+[15-Sep-2015 23:39:50 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 6
+[15-Sep-2015 23:39:50 Europe/London] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 11
+[15-Sep-2015 23:39:50 Europe/London] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 21
+[15-Sep-2015 23:39:50 Europe/London] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 23
+[28-Sep-2015 09:08:35 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 3
+[28-Sep-2015 09:08:35 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 6
+[28-Sep-2015 09:08:35 Europe/London] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 11
+[28-Sep-2015 09:08:35 Europe/London] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 21
+[28-Sep-2015 09:08:35 Europe/London] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 23
+[28-Sep-2015 19:00:34 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 3
+[28-Sep-2015 19:00:34 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 6
+[28-Sep-2015 19:00:34 Europe/London] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 11
+[28-Sep-2015 19:00:34 Europe/London] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 21
+[28-Sep-2015 19:00:34 Europe/London] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 23
+[29-Nov-2015 02:04:14 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 3
+[29-Nov-2015 02:04:14 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 6
+[29-Nov-2015 02:04:14 Europe/London] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 11
+[29-Nov-2015 02:04:14 Europe/London] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 21
+[29-Nov-2015 02:04:14 Europe/London] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 23
+[02-Dec-2015 12:53:30 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 3
+[02-Dec-2015 12:53:30 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 6
+[02-Dec-2015 12:53:30 Europe/London] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 11
+[02-Dec-2015 12:53:30 Europe/London] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 21
+[02-Dec-2015 12:53:30 Europe/London] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 23
+[03-Dec-2015 02:31:05 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 3
+[03-Dec-2015 02:31:05 Europe/London] PHP Notice:  Use of undefined constant WPLANG - assumed 'WPLANG' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 6
+[03-Dec-2015 02:31:05 Europe/London] PHP Notice:  Use of undefined constant WP_PLUGIN_DIR - assumed 'WP_PLUGIN_DIR' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 11
+[03-Dec-2015 02:31:05 Europe/London] PHP Notice:  Use of undefined constant ABSPATH - assumed 'ABSPATH' in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 21
+[03-Dec-2015 02:31:05 Europe/London] PHP Fatal error:  Call to undefined function get_bloginfo() in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/config.php on line 23

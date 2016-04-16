@@ -1,0 +1,1 @@
+<?php return '0.1.1'; // The version of the base folder, common amongst SiteOrigin widget plugins.

@@ -1,0 +1,6 @@
+[07-Oct-2015 15:03:38 Europe/London] PHP Fatal error:  Using $this when not in object context in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/templates/views/tpl/templatesTab.php on line 24
+[10-Oct-2015 18:26:29 Europe/London] PHP Fatal error:  Using $this when not in object context in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/templates/views/tpl/templatesTab.php on line 24
+[11-Oct-2015 02:30:59 Europe/London] PHP Fatal error:  Using $this when not in object context in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/templates/views/tpl/templatesTab.php on line 24
+[29-Oct-2015 03:24:42 Europe/London] PHP Fatal error:  Using $this when not in object context in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/templates/views/tpl/templatesTab.php on line 24
+[01-Nov-2015 09:50:06 Europe/London] PHP Fatal error:  Using $this when not in object context in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/templates/views/tpl/templatesTab.php on line 24
+[01-Nov-2015 17:35:35 Europe/London] PHP Fatal error:  Using $this when not in object context in /home/ospaorg/public_html/o2skills.com/wp-content/plugins/google-maps-ready/modules/templates/views/tpl/templatesTab.php on line 24

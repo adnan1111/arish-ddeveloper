@@ -1,0 +1,12 @@
+/*-- VTSLIDER ADMIN STYLE -----------------
+------------------------------------------*/
+#vts_admin {width: 550px;margin-top: 5px;}
+#vts_admin table{width:525px;}
+#vts_admin table tr td{padding:5px 0;}
+#vts_admin table tr td:first-child{width:160px;font-weight:bold;}
+#vts_admin .desc{display: block;font-size: 14px;font-weight: bold;margin-bottom: 10px;}
+#vts_admin table textarea{width: 230px;}
+#vts_admin input[type="submit"]{margin-top:10px;}
+#vts_admin select{width:95px;}
+
+
